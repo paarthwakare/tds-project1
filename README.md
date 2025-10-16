@@ -23,3 +23,6 @@ Notes:
 - For evaluation callbacks, provide a public `evaluation_url` reachable by the deployed app (not `localhost`).
 
 
+FOR TESTING:
+use:
+curl -i -X POST 'API-ENDPOINT-URL'   -H 'Content-Type: application/json'   -d '{"secret":"SECRET","email":"you@example.com","task":"final-test-task","round":1,"nonce":"n1","evaluation_url":"https://example.com/eval","brief":"Tissot Watch"}'
